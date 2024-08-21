@@ -97,33 +97,17 @@ function Kavo.CreateLib(kavName, themeList)
     end
     if themeList == "DarkTheme" then
         themeList = themeStyles.DarkTheme
-    elseif themeList == "LightTheme" then
-        themeList = themeStyles.LightTheme
-    elseif themeList == "BloodTheme" then
-        themeList = themeStyles.BloodTheme
-    elseif themeList == "GrapeTheme" then
-        themeList = themeStyles.GrapeTheme
-    elseif themeList == "Ocean" then
-        themeList = themeStyles.Ocean
-    elseif themeList == "Midnight" then
-        themeList = themeStyles.Midnight
-    elseif themeList == "Sentinel" then
-        themeList = themeStyles.Sentinel
-    elseif themeList == "Synapse" then
-        themeList = themeStyles.Synapse
-    elseif themeList == "Serpent" then
-        themeList = themeStyles.Serpent
     else
         if themeList.SchemeColor == nil then
-            themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
+            themeList.SchemeColor = Color3.fromRGB(18, 27, 45)
         elseif themeList.Background == nil then
-            themeList.Background = Color3.fromRGB(36, 37, 43)
+            themeList.Background = Color3.fromRGB(18, 27, 45)
         elseif themeList.Header == nil then
-            themeList.Header = Color3.fromRGB(28, 29, 34)
+            themeList.Header = Color3.fromRGB(18, 27, 45)
         elseif themeList.TextColor == nil then
             themeList.TextColor = Color3.fromRGB(255,255,255)
         elseif themeList.ElementColor == nil then
-            themeList.ElementColor = Color3.fromRGB(32, 32, 38)
+            themeList.ElementColor = Color3.fromRGB(18, 27, 45)
         end
     end
 
@@ -159,7 +143,7 @@ function Kavo.CreateLib(kavName, themeList)
 
     blurFrame.Name = "blurFrame"
     blurFrame.Parent = pages
-    blurFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    blurFrame.BackgroundColor3 = Color3.fromRGB(18, 27, 45)
     blurFrame.BackgroundTransparency = 1
     blurFrame.BorderSizePixel = 0
     blurFrame.Position = UDim2.new(-0.0222222228, 0, -0.0371747203, 0)
@@ -480,9 +464,9 @@ function Kavo.CreateLib(kavName, themeList)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
             if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
-                Utility:TweenObject(sectionName, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
+                Utility:TweenObject(sectionName, {TextColor3 = Color3.fromRGB(18, 27, 45)}, 0.2)
             end 
-            if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
+            if themeList.SchemeColor == Color3.fromRGB(18, 27, 45) then
                 Utility:TweenObject(sectionName, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
             end 
                
@@ -622,7 +606,7 @@ function Kavo.CreateLib(kavName, themeList)
                 if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
                     Utility:TweenObject(moreInfo, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
                 end 
-                if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
+                if themeList.SchemeColor == Color3.fromRGB(18, 27, 45) then
                     Utility:TweenObject(moreInfo, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
                 end 
 
@@ -818,7 +802,7 @@ function Kavo.CreateLib(kavName, themeList)
                 if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
                     Utility:TweenObject(moreInfo, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
                 end 
-                if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
+                if themeList.SchemeColor == Color3.fromRGB(18, 27, 45) then
                     Utility:TweenObject(moreInfo, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
                 end 
 
