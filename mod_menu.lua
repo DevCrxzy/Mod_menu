@@ -386,16 +386,16 @@ function Kavo.CreateLib(kavName, themeList)
                     if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
                         Utility:TweenObject(v, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
                     end 
-                    if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
-                        Utility:TweenObject(v, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
+                    if themeList.SchemeColor == Color3.fromRGB(18, 27, 45) then
+                        Utility:TweenObject(v, {TextColor3 = Color3.fromRGB(18, 27, 45)}, 0.2)
                     end 
                     Utility:TweenObject(v, {BackgroundTransparency = 1}, 0.2)
                 end
             end
             if themeList.SchemeColor == Color3.fromRGB(255,255,255) then
-                Utility:TweenObject(tabButton, {TextColor3 = Color3.fromRGB(0,0,0)}, 0.2)
+                Utility:TweenObject(tabButton, {TextColor3 = Color3.fromRGB(18, 27, 45)}, 0.2)
             end 
-            if themeList.SchemeColor == Color3.fromRGB(0,0,0) then
+            if themeList.SchemeColor == Color3.fromRGB(18, 27, 45) then
                 Utility:TweenObject(tabButton, {TextColor3 = Color3.fromRGB(255,255,255)}, 0.2)
             end 
             Utility:TweenObject(tabButton, {BackgroundTransparency = 0}, 0.2)
